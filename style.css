@@ -1,0 +1,133 @@
+/* This Code is Written By --Asim Husain */
+
+/* Main background and sidebar */
+.main {
+    background-color: #f5f5f5;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: white;
+}
+
+.sidebar .sidebar-content {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    color: white;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #009688;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #00796b;
+}
+
+/* Text input */
+.stTextInput > div > div > input {
+    border-radius: 10px;
+}
+
+/* Button containers */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Crypto link boxes */
+.crypto-link-box {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BCC6CC;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 35px;
+    text-align: center;
+    border: 0px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.crypto-link-box:hover {
+    background-color: #f0f0f0;
+    animation: bounce 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.crypto-link {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none !important;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.crypto-link:hover {
+    color: #333333;
+}
+
+a.crypto-link-box, a.crypto-link-box:hover {
+    text-decoration: none;
+}
+
+.crypto-link-box::after {
+    content: '\2192';
+    margin-left: 10px;
+    font-size: 1.2em;
+    color: #000000;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.crypto-link-box:hover::after {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Sidebar button styles */
+.sidebar-button-container {
+    position: absolute;
+    bottom: -430px;
+    width: 20%;
+    text-align: center;
+}
+
+.sidebar-button {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ0hJNr9dy5PpovgYX-9omHtQdDzeSM8huHXz-nOby2tx8r7ighMv23RoPIHBE9GLG1ZE&usqp=CAU');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sidebar-button:hover {
+    background-color: #f0f0f0;
+    color: black;
+    transform: scale(1.1);
+}
+
+.sidebar-button:hover::after {
+    opacity: 1;
+    transform: translateX(0);
+}
