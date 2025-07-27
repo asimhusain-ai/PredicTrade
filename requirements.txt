@@ -6,5 +6,5 @@ plotly
 matplotlib
 scikit-learn
 keras
-tensorflow==2.10.0
+tensorflow-cpu==2.11.0
 matplotlib
