@@ -1,10 +1,10 @@
 streamlit
+tensorflow==2.9.1
 pandas
 numpy
 yfinance
 plotly
 matplotlib
 scikit-learn
-keras
-tensorflow-cpu==2.11.0
+keras==2.9.0
 matplotlib
