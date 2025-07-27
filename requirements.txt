@@ -6,5 +6,5 @@ plotly
 matplotlib
 scikit-learn
 keras
-tensorflow
+tensorflow==2.10.0
 matplotlib
