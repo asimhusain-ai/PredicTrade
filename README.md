@@ -4,7 +4,7 @@ Stock Price Prediction — An intelligent, ML-powered app built with Streamlit t
 
 **🌐 Live Demo**
 
-Try the app here: https://predictrade.vercel.app
+Try the app here: https://predictrade.streamlit.app
 
 ⚠️ This project is for educational and research purposes only. Not financial advice.
 
