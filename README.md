@@ -44,21 +44,6 @@ Built with **yfinance, Pandas, Scikit-learn**, and optional deep learning tools,
 
 ---
 
-## 🚀 Quick Start (Local)
-**Requirements:** Python 3.9+  
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/stock-price-prediction.git
-cd stock-price-prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
-
-
 ## 🔬 Models & How They Work
 - **Simple Moving Average (SMA)** → Baseline rolling averages.  
 - **Linear Regression** → Uses lag features for predictions.  
@@ -86,6 +71,22 @@ streamlit run app.py
 - Strictly for **educational purposes only**.  
 
 
-
 ## 👨‍💻 Author
 Made with ❤️ by Asim Husain www.asimhusain.dev
+
+
+
+
+## 🚀 Quick Start (Local)
+**Requirements:** Python 3.9+  
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/stock-price-prediction.git
+cd stock-price-prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
